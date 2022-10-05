@@ -1,5 +1,5 @@
 ━━━━━━━━━━━━━━━━━━━━
-**ᴋɪɴɢ ᴀʙɪsʜɴᴏɪ**
+**Rishav--Repo**
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
@@ -12,9 +12,9 @@
 
 <h1 align="center"><b> 𝖤𝖷𝖮N   𝖱𝖮𝖡𝖮𝖳  ❗️</b></h1> 
 
-##  𝘊𝘢𝘵𝘤𝘩 𝘔𝘦 𝘐𝘯 [𝘛𝘎🏃‍♀️](https://t.me/AbishnoiMF) 
+##  𝘊𝘢𝘵𝘤𝘩 𝘔𝘦 𝘐𝘯 [𝘛𝘎🏃‍♀️](https://t.me/dragoneyegaming) 
 
-## 𝖬𝗒 A𝗅𝗅 𝖡𝗈𝗍𝗌  [𝖡𝖮𝖳𝖲](https://t.me/Abishnoi_bots)  
+## 𝖬𝗒 A𝗅𝗅 𝖡𝗈𝗍𝗌  [𝖡𝖮𝖳𝖲](https://t.me/kurumialphabot)  
 
 ## ⚡ (ɢɪᴠᴇ sᴛᴀʀ)
 
@@ -72,7 +72,7 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ᴇxᴏɴ ✘ ʀᴏ
 </h3>
  : ➻
 
-➥ [𝐀𝖻𝗂𝗌𝗁𝗇𝗈𝗂] × <a href="https://github.com/KingAbishnoi" alt="KingAbishnoi"> <img src="https://img.shields.io/badge/KINGABISHNOI-90302f?logo=github" /></a>  
+➥ [Rishav] × <a href="https://github.com/KingAbishnoi" alt="KingAbishnoi"> <img src="https://img.shields.io/badge/KINGABISHNOI-90302f?logo=github" /></a>  
 
 ➥ [𝐈ɢɴɪᴛᴇᴛᴇᴄʜ𝐔ᴘᴅᴀᴛᴇs] × <a href="https://t.me/IgniteTechDivision" alt="Ignitetech"> <img src="https://img.shields.io/badge/HW-90302f?logo=github" /></a>  
 
