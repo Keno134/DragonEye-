@@ -138,7 +138,7 @@ I'm ᴀᴍ  ᴀʟɪᴠᴇ  ʙɪᴛᴄʜ !
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ➕ ", url=f"t.me/{BOT_USERNAME}?startgroup=true"
+            text="➕ ᴀᴅᴅ ᴍᴇ ʙɪᴛᴄʜ ➕ ", url=f"t.me/{BOT_USERNAME}?startgroup=true"
         )
     ],
     [
