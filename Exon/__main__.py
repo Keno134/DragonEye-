@@ -130,7 +130,7 @@ PM_START_TEXT = """
 
 
 GROUP_START_TEXT = """
-I'm ᴀᴍ  ᴀʟɪᴠᴇ  ʙᴀʙʏ !
+I'm ᴀᴍ  ᴀʟɪᴠᴇ  ʙɪᴛᴄʜ !
 
 ʜᴀᴠᴇɴ'ᴛ sʟᴇᴘᴛ sɪɴᴄᴇ: {} 
 """
@@ -765,10 +765,10 @@ def main():
                 f"@{SUPPORT_CHAT}",
                 animation="https://telegra.ph/file/8dea393ddf4fc2e339179.gif",
                 caption=f"""
-ㅤ🥀 {dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ .....
+ㅤ🥀 {dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ɪᴍ ʙɪᴛᴄʜ .....
 
 ━━━━━━━━━━━━━
-⍟ **ᴍʏ ᴏᴡɴᴇʀ :** [𝐀ʙɪꜱʜɴᴏɪ](https://t.me/{OWNER_USERNAME})
+⍟ **ᴍʏ ᴏᴡɴᴇʀ :** [Bᴇʀʟɪɴ](https://t.me/{OWNER_USERNAME})
 ⍟ **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
 ⍟ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tver}`
 ⍟ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pver}`
