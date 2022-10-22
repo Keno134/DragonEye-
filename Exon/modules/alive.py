@@ -59,18 +59,18 @@ async def restart(client, m: Message):
     await asyncio.sleep(1)
     await accha.edit("ᴀʟɪᴠɪɴɢ..")
     await asyncio.sleep(0.1)
-    await accha.edit("ᴀʟɪᴠɪɴɢ ʙᴀʙʏ ....")
+    await accha.edit("ɪᴍ ᴀʟɪᴠɪɴɢ ʙɪᴛᴄʜ ....")
     await accha.delete()
     await asyncio.sleep(0.1)
     umm = await m.reply_sticker(
-        "CAACAgUAAx0CZIiVngABBHAzYwdi9OIVTQ7DYELAqMl46fgnK4wAAjsIAAKagolX-O0V64tvzK8pBA"
+        "CAACAgUAAxkBAANdY1RO7YuJ1_nGCd2bQ4hXwqshQFAAAp0CAAKIiXBVyEGIMskgOl0qBA"
     )
     await asyncio.sleep(0.1)
     await m.reply_photo(
         random.choice(PHOTO),
-        caption=f"""**ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME}**
+        caption=f"""**ʜᴇʏ,Bʀᴏ I ᴀᴍ {BOT_NAME}**
      ▱▱▱▱▱▱▱▱▱▱▱▱
-» **ᴍʏ ᴏᴡɴᴇʀ :** [𝐀ʙɪsʜɴᴏɪ](https://t.me/{OWNER_USERNAME})
+» **ᴍʏ ᴏᴡɴᴇʀ :** [Bᴇʀʟɪɴ](https://t.me/{OWNER_USERNAME})
 » **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
 » **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tver}`
 » **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pver}`
