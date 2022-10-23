@@ -473,7 +473,7 @@ def supportlist(update: Update, context: CallbackContext):
         "<code>ɢᴀᴛʜᴇʀɪɴɢ ɪɴᴛᴇʟ ғʀᴏᴍ .</code>",
         parse_mode=ParseMode.HTML,
     )
-    reply = "<b>ғʀɪᴇɴᴅs:</b>\n\n"
+    reply = "<b>Rᴀɴᴅɪ's:</b>\n\n"
     for each_user in DEMONS:
         user_id = int(each_user)
         try:
@@ -492,7 +492,7 @@ def sudolist(update: Update, context: CallbackContext):
         parse_mode=ParseMode.HTML,
     )
     true_sudo = list(set(DRAGONS) - set(DEV_USERS))
-    reply = "<b>ʙᴇsᴛᴏ ғʀɪᴇɴᴅᴏs:</b>\n\n"
+    reply = "<b>Mᴏsᴛ ᴛʀᴜsᴛᴇᴅ ʙʀᴏᴛʜᴇʀs:</b>\n\n"
     for each_user in true_sudo:
         user_id = int(each_user)
         try:
@@ -511,7 +511,7 @@ def devlist(update: Update, context: CallbackContext):
         parse_mode=ParseMode.HTML,
     )
     true_dev = list(set(DEV_USERS) - {OWNER_ID})
-    reply = "<b>ғᴀᴍɪʟʏ ᴍᴇᴍʙᴇʀs:</b>\n\n"
+    reply = "<b>Pʀᴇᴍɪᴜᴍ ʙʀᴏᴛʜᴇʀs:</b>\n\n"
     for each_user in true_dev:
         user_id = int(each_user)
         try:
