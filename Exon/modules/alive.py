@@ -66,9 +66,9 @@ async def restart(client, m: Message):
         "CAACAgUAAxkBAANdY1RO7YuJ1_nGCd2bQ4hXwqshQFAAAp0CAAKIiXBVyEGIMskgOl0qBA"
     )
     await asyncio.sleep(0.1)
-    await m.reply_photo(
+    await m.reply_video(
         "https://telegra.ph/file/6f2d818be60119cfbc899.mp4",
-        caption=f"""**ʜᴇʏ,Bʀᴏ I ᴀᴍ {BOT_NAME}**
+        caption=f"""**ʜᴇʏ, Bʀᴏ I ᴀᴍ {BOT_NAME}**
      ▱▱▱▱▱▱▱▱▱▱▱▱
 » **ᴍʏ ᴏᴡɴᴇʀ :** [Bᴇʀʟɪɴ](https://t.me/{OWNER_USERNAME})
 » **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
