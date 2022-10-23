@@ -79,7 +79,7 @@ def no_longer_afk(update, context):
         firstname = update.effective_user.first_name
         try:
             message.reply_text(
-                "{} ɪs ʙᴀᴄᴋ ᴏɴʟɪɴᴇ!\n\nʏᴏᴜ ᴡᴇʀᴇ ɢᴏɴᴇ ғᴏʀ {}.".format(
+                "{} ɪs ʙᴀᴄᴋ Aғᴛᴇʀ sᴇx!\n\nʏᴏᴜ ᴡᴇʀᴇ ɢᴏɴᴇ ғᴏʀ {}.".format(
                     firstname, end_afk_time
                 )
             )
@@ -156,7 +156,7 @@ def check_afk(update, context, user_id, fst_name, userc_id):
         else:
             if int(userc_id) == int(user_id):
                 return
-            res = "{} ɪs ᴀғᴋ.\nʀᴇᴀsᴏɴ: {}\n\nʟᴀsᴛ sᴇᴇɴ {} ᴀɢᴏ.".format(
+            res = "{} ɪs ᴍᴀsᴛᴜʀʙᴀᴛɪɴɢ.\nʀᴇᴀsᴏɴ: {}\n\nʟᴀsᴛ sᴇᴇɴ {} ᴀɢᴏ.".format(
                 fst_name, reason, since_afk
             )
             update.effective_message.reply_text(res)
@@ -169,11 +169,11 @@ def __user_info__(user_id):
         since_afk = get_readable_time(
             (time.time() - float(REDIS.get(f"afk_time_{user_id}")))
         )
-        text = "<i>ᴛʜɪs ᴜsᴇʀ ɪs ᴄᴜʀʀᴇɴᴛʟʏ ᴀғᴋ (ᴀᴡᴀʏ ғʀᴏᴍ ᴋᴇʏʙᴏᴀʀᴅ).</i>"
+        text = "<i>ᴛʜɪs ᴜsᴇʀ ɪs ᴄᴜʀʀᴇɴᴛʟʏ ʜᴀᴠɪɴɢ sᴇx (ᴀᴡᴀʏ ғʀᴏᴍ ᴋᴇʏʙᴏᴀʀᴅ).</i>"
         text += f"\n<i>sɪɴᴄᴇ: {since_afk}</i>"
 
     else:
-        text = "<i>ᴛʜɪs ᴜsᴇʀ ɪs ᴄᴜʀʀᴇɴᴛʟʏ ɪsɴ'ᴛ ᴀғᴋ (ᴀᴡᴀʏ ғʀᴏᴍ ᴋᴇʏʙᴏᴀʀᴅ).</i>"
+        text = "<i>ᴛʜɪs ᴜsᴇʀ ɪs ᴄᴜʀʀᴇɴᴛʟʏ ɪsɴ'ᴛ ᴍᴀsᴛᴜʀʙᴀᴛɪɴɢ (ᴀᴡᴀʏ ғʀᴏᴍ ᴋᴇʏʙᴏᴀʀᴅ).</i>"
     return text
 
 
