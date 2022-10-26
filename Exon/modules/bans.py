@@ -105,7 +105,7 @@ def ban(update: Update, context: CallbackContext) -> str:
         message.reply_text("ᴄᴀɴ'ᴛ sᴇᴇᴍ ᴛᴏ ғɪɴᴅ ᴛʜɪs ᴘᴇʀsᴏɴ.")
         return log_message
     if user_id == bot.id:
-        message.reply_text("ᴏʜ ʏᴇᴀʜ, ʙᴀɴ ᴍʏsᴇʟғ, ɴᴏᴏʙ sᴀʟᴀ!")
+        message.reply_text("ᴏʜ ʏᴇᴀʜ, ʙᴀɴ ᴍʏsᴇʟғ, Lᴜɴᴅ ʟᴇʟᴇ ᴍᴇʀᴀ!")
         return log_message
     if is_user_ban_protected(chat, user_id, member) and user not in DEV_USERS:
         if user_id == OWNER_ID:
@@ -259,10 +259,10 @@ def temp_ban(update: Update, context: CallbackContext) -> str:
                 [
                     [
                         InlineKeyboardButton(
-                            text="ᴜɴʙᴀɴ ❗", callback_data=f"unbanb_unban={user_id}"
+                            text="ᴜɴʙᴀɴ ", callback_data=f"unbanb_unban={user_id}"
                         ),
                         InlineKeyboardButton(
-                            text="ᴅᴇʟᴇᴛᴇ ❗", callback_data="unbanb_del"
+                            text="ᴅᴇʟᴇᴛᴇ ", callback_data="unbanb_del"
                         ),
                     ]
                 ]
@@ -389,7 +389,7 @@ def punch(update: Update, context: CallbackContext) -> str:
             log += f"\n<b>ʀᴇᴀsᴏɴ:</b> {reason}"
         return log
     else:
-        message.reply_text("⚠️ ᴡᴇʟʟ ᴅᴀᴍɴ, ɪ ᴄᴀɴ'ᴛ ᴘᴜɴᴄʜ ᴛʜᴀᴛ ᴜsᴇʀ.")
+        message.reply_text("ᴡᴇʟʟ ᴅᴀᴍɴ, ɪ ᴄᴀɴ'ᴛ ᴘᴜɴᴄʜ ᴛʜᴀᴛ ᴜsᴇʀ.")
     return log_message
 
 
@@ -570,7 +570,7 @@ __help__ = """
 
 • /zombies clean*:* `ʀᴇᴍᴏᴠᴇs ᴅᴇʟᴇᴛᴇᴅ ᴀᴄᴄᴏᴜɴᴛs ғʀᴏᴍ ᴛʜᴇ ɢʀᴏᴜᴘ `
 .
-• /berlin <chatid> <ᴍsɢ>*:* `ᴍᴀᴋᴇ ᴍᴇ sᴇɴᴅ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ᴀ sᴘᴇᴄɪғɪᴄ ᴄʜᴀᴛ `.
+• /abishnoi <chatid> <ᴍsɢ>*:* `ᴍᴀᴋᴇ ᴍᴇ sᴇɴᴅ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ᴀ sᴘᴇᴄɪғɪᴄ ᴄʜᴀᴛ `.
 """
 
 __mod_name__ = "𝙱ᴀɴs"
