@@ -136,12 +136,12 @@ buttons = [
     [
         InlineKeyboardButton(
             text="➕ ᴀᴅᴅ ᴍᴇ ʙɪᴛᴄʜ ➕ ", url=f"t.me/{BOT_USERNAME}?startgroup=true"
-        )
+ 
     ],
     [
         InlineKeyboardButton(text=" ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
-         
-        ),
+
+        
     ],
     [
         InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
