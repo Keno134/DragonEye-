@@ -304,10 +304,10 @@ def start(update: Update, context: CallbackContext):
         update.effective_message.reply_photo(
             START_IMG,
             caption=("ʜᴇʏ {},\n\nɪ ᴀᴍ ᴀʟɪᴠᴇ ʙɪᴛᴄʜ \n\nIᴍ ʜᴇʀᴇ ᴛᴏ ᴋɪᴄᴋ sᴏᴍᴇ ᴀss ᴏғ Yᴏᴜ ʙʀᴀᴛs."
-            )
+            ),
 
             parse_mode=ParseMode.MARKDOWN,
-            reply_markup=InlineKeyboardMarkup)
+            reply_markup=InlineKeyboardMarkup),
                 [
                     [
                         InlineKeyboardButton(
