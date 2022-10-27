@@ -328,8 +328,7 @@ def start(update: Update, context: CallbackContext):
                         ),
                     ],
                 ]
-            ),
-        )
+            )
 
 
 # BSDK KY DEK RA H ©
