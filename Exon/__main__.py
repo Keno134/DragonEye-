@@ -118,19 +118,15 @@ PM_START_TEX = """
 """
 
 PM_START_TEXT = """
-*ʜᴇʟʟᴏ {} !*
-✪ ɪ ᴀᴍ  ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ \nᴡɪᴛʜ ᴜsᴇғᴜʟʟ ғᴇᴀᴛᴜʀᴇ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛʜᴇɴ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀs ʙᴜᴅᴅʏ
-*─────────────*
- ➻ *ᴜᴘᴛɪᴍᴇ:* `{}`
- ➻ *ᴜsᴇʀs:* `{}`
- ➻ *chats:* `{}`
-*─────────────*
-✪ ʜɪᴛ *ʜᴇʟᴘ* ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ ʙᴜᴅᴅʏ \n[➥]*:*\nғɪʀꜱᴛ ᴀᴅᴅ ᴍᴇ ɪɴ ɢʀᴏᴜᴘ ᴛʜᴇɴ ꜱᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ ʙᴀʙʏ 
+*Hᴇʏ {} !*
+๏ ɪ ᴀᴍ Dʀᴀᴋᴇɴ \n➻ Dʀᴀᴋᴇɴ ɪs ᴀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴀsᴇᴅ ᴏɴ ᴀɴɪᴍᴇ *Tᴏᴋʏᴏ Rᴇᴠᴇɴɢᴇʀs* ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ sᴇᴄᴜʀᴇʟʏ
+──────────────────
+๏ *Hɪᴛ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴀʙɪʟɪᴛɪᴇs ᴀɴᴅ ᴘᴏᴡᴇʀs* 
 """
 
 
 GROUP_START_TEXT = """
-I'm ᴀᴍ  ᴀʟɪᴠᴇ  ʙᴀʙʏ !
+I'm ᴀᴍ  ᴀʟɪᴠᴇ Bɪᴛᴄʜ !
 
 ʜᴀᴠᴇɴ'ᴛ sʟᴇᴘᴛ sɪɴᴄᴇ: {} 
 """
@@ -138,7 +134,7 @@ I'm ᴀᴍ  ᴀʟɪᴠᴇ  ʙᴀʙʏ !
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ➕ ", url=f"t.me/{BOT_USERNAME}?startgroup=true"
+            text="➕ ᴀᴅᴅ ᴍᴇ Bɪᴛᴄʜ ➕ ", url=f"t.me/{BOT_USERNAME}?startgroup=true"
         )
     ],
     [
@@ -289,7 +285,7 @@ def start(update: Update, context: CallbackContext):
             time.sleep(0.4)
             lol.delete()
             update.effective_message.reply_sticker(
-                "CAACAgUAAx0CUgguZAABARdrYwt_f9vFYZop5n-EGGa80vLar9AAAjsIAAKagolX-O0V64tvzK8pBA"
+                "CAACAgIAAxkDAAIBXmNaTc9KbzXbEN9layYxzWUaRhBHAAKUDwACF7dYSUpZ7Sb3uN3NKgQ"
             )
             update.effective_message.reply_text(
                 PM_START_TEXT.format(
@@ -306,7 +302,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             START_IMG,
-            caption="ʜᴇʏ `{}`,\n\nɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ !\n➥ᴜᴘᴛɪᴍᴇ: `{}` \n➥ᴜsᴇʀs: `{}` \n➥ᴄʜᴀᴛs: `{}` ".format(
+            caption="ʜᴇʏ `{}`,\n\nɪ ᴀᴍ ᴀʟɪᴠᴇ Bɪᴛᴄʜ !\n➥ᴜᴘᴛɪᴍᴇ: `{}` \n➥ᴜsᴇʀs: `{}` \n➥ᴄʜᴀᴛs: `{}` ".format(
                 usr.first_name,
                 uptime,
                 sql.num_users(),
