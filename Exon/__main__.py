@@ -118,14 +118,11 @@ PM_START_TEX = """
 """
 
 PM_START_TEXT = """
-*ʜᴇʟʟᴏ {} !*
-✪ ɪ ᴀᴍ  ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ \nᴡɪᴛʜ ᴜsᴇғᴜʟʟ ғᴇᴀᴛᴜʀᴇ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛʜᴇɴ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀs ʙᴜᴅᴅʏ
-*─────────────*
- ➻ *ᴜᴘᴛɪᴍᴇ:* `{}`
- ➻ *ᴜsᴇʀs:* `{}`
- ➻ *chats:* `{}`
-*─────────────*
-✪ ʜɪᴛ *ʜᴇʟᴘ* ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ ʙᴜᴅᴅʏ \n[➥]*:*\nғɪʀꜱᴛ ᴀᴅᴅ ᴍᴇ ɪɴ ɢʀᴏᴜᴘ ᴛʜᴇɴ ꜱᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ ʙᴀʙʏ 
+*Hᴇʏ {} !*
+๏ I ᴀᴍ Dʀᴀᴋᴇɴ !
+➻ Dʀᴀᴋᴇɴ ɪs ᴀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴍᴇɴᴛ ʙᴏᴛ ʙᴀsᴇᴅ ᴏɴ ᴛʜᴇ ᴀɴɪᴍᴇ Tᴏᴋʏᴏ Rᴇᴠᴇɴɢᴇʀs ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ sᴇᴄᴜʀᴇʟʏ
+──────────────────
+๏ *Hɪᴛ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴀʙɪʟɪᴛɪᴇs ᴀɴᴅ ᴘᴏᴡᴇʀs*
 """
 
 
@@ -143,14 +140,13 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text=" ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
-        InlineKeyboardButton(
-            text="sᴏᴜʀᴄᴇ 🌐", url="https://github.com/TEAM-ABG/ExonRobot"
+         
         ),
     ],
     [
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ 🥂", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
         InlineKeyboardButton(
-            text="ᴜᴘᴅᴀᴛᴇs 🏃‍♂️", url=f"https://t.me/{UPDATES_CHANNEL}"
+            text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"
         ),
     ],
 ]
@@ -306,11 +302,9 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             START_IMG,
-            caption="ʜᴇʏ `{}`,\n\nɪ ᴀᴍ ᴀʟɪᴠᴇ ʙɪᴛᴄʜ !\n➥ᴜᴘᴛɪᴍᴇ: `{}` \n➥ᴜsᴇʀs: `{}` \n➥ᴄʜᴀᴛs: `{}` ".format(
-                usr.first_name,
-                uptime,
-                sql.num_users(),
-                sql.num_chats(),
+            caption="ʜᴇʏ `{}`,\n\nɪ ᴀᴍ ᴀʟɪᴠᴇ ʙɪᴛᴄʜ !\nI'ᴍ ʜᴇʀᴇ ᴛᴏ ᴋɪᴄᴋ sᴏᴍᴇ ᴀss ᴏғ Yᴏᴜ ʙʀᴀᴛs.
+                     
+               
             ),
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
