@@ -62,7 +62,7 @@ from Exon import (
     OWNER_ID,
     OWNER_USERNAME,
     PORT,
-    START_IMG,
+    START_VIDEO,
     SUPPORT_CHAT,
     TOKEN,
     UPDATES_CHANNEL,
@@ -301,6 +301,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_video(
+                                
             START_VIDEO,
             caption="ʜᴇʏ `{}`,\n\nɪ ᴀᴍ ᴀʟɪᴠᴇ Bɪᴛᴄʜ !\n➥ᴜᴘᴛɪᴍᴇ: `{}` \n➥ᴜsᴇʀs: `{}` \n➥ᴄʜᴀᴛs: `{}` ".format(
                 usr.first_name,
