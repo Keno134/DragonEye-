@@ -153,7 +153,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-*ᴍᴀɪɴ* ᴄᴏᴍᴍᴀɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ:
+[卍](https://telegra.ph/file/623faaa302103237998c9.jpg) *ᴍᴀɪɴ* ᴄᴏᴍᴍᴀɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ:
 ⍟ /help: PM's ʏᴏᴜ ᴛʜɪs ᴍᴇssᴀɢᴇ.
 ⍟ /help <module name>: ᴘᴍ ʏᴏᴜ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴛʜᴀᴛ ᴍᴏᴅᴜʟᴇ.
 ⍟ /donate: ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴏɴ ʜᴏᴡ ᴛᴏ ᴅᴏɴᴀᴛᴇ!
