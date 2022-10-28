@@ -62,7 +62,7 @@ from Exon import (
     OWNER_ID,
     OWNER_USERNAME,
     PORT,
-    START_VIDEO,
+    START_IMG,
     SUPPORT_CHAT,
     TOKEN,
     UPDATES_CHANNEL,
