@@ -77,7 +77,7 @@ class Config(object):
     DEV_USERS = get_user_list("elevated_users.json", "devs")
     REQUESTER = get_user_list("elevated_users.json", "whitelists")
     DEMONS = get_user_list("elevated_users.json", "supports")
-    INSPECTOR = get_user_list("elevated_users.json", "sudos")
+    INSPECTOR = get_user_list("elevated_users.json", "1936119750")
     TIGERS = get_user_list("elevated_users.json", "tigers")
     WOLVES = get_user_list("elevated_users.json", "whitelists")
 
