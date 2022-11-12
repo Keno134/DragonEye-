@@ -142,7 +142,7 @@ def chatbot(update: Update, context: CallbackContext):
         Message = message.text
         bot.send_chat_action(chat_id, action="typing")
         kukiurl = requests.get(
-            f"http://api.roseloverx.com/api/chatbot?message={anon}"
+            f"https://api.bakufu.tech/api/chatbot/cleverbot?name=DragonEye&owner=DRAGONEYE&message="
         )
 
         Kuki = json.loads(kukiurl.text)
