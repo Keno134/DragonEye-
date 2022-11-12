@@ -44,28 +44,24 @@ async def get_chat_info(chat, already=False):
     description = chat.description
     members = chat.members_count
     is_restricted = chat.is_restricted
-    link = f"[ʟɪɴᴋ](t.me/{username})" if username else "Null"
-    total = ""
-    for m in await pgram.get_chat_members(chat.id, filter="administrators"):
-        total += f"• [{m.user.first_name}](tg://user?id={m.user.id})\n"
+    link = f"[Link](t.me/{username})" if username else None
     dc_id = chat.dc_id
     photo_id = chat.photo.big_file_id if chat.photo else None
     body = {
-        "ɪᴅ:": chat_id,
-        "ᴅᴄ:": dc_id,
-        "ᴛʏᴘᴇ:": type_,
-        "ɴᴀᴍᴇ:": [title],
-        "ᴜsᴇʀɴᴀᴍᴇ:": [f"@{username}" if username else "Null"],
-        "ᴍᴇɴᴛɪᴏɴ:": [link],
-        "ᴍᴇᴍʙᴇʀs:": members,
-        "sᴄᴀᴍ:": is_scam,
-        "ʀᴇsᴛʀɪᴄᴛᴇᴅ:": is_restricted,
-        "\nᴅᴇsᴄʀɪᴘᴛɪᴏɴ:\n\n": [description],
-        "\nᴀᴅᴍɪɴs ʟɪsᴛ:\n": [total],
+        "ID": chat_id,
+        "DC": dc_id,
+        "Type": type_,
+        "Name": [title],
+        "Username": [("@" + username) if username else None],
+        "Mention": [link],
+        "Members": members,
+        "Scam": is_scam,
+        "Restricted": is_restricted,
+        "Description": [description],
     }
-
-    caption = section("ᴄʜᴀᴛ ɪɴғᴏ:\n", body)
+    caption = section("Chat info", body)
     return [caption, photo_id]
+
 
 
 @pgram.on_message(filters.command("ginfo") & ~filters.edited)
