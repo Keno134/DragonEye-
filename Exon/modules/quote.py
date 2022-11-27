@@ -27,8 +27,8 @@ from traceback import format_exc
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AsukaRobot import pgram, arq
-from AsukaRobot.utils.errors import capture_err
+from Exon import pgram, arq
+from Exon.utils.errors import capture_err
 
 
 async def quotify(messages: list):
