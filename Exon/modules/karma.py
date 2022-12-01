@@ -40,7 +40,7 @@ from Exon.modules.mongo.karma_mongo import (
 )
 from Exon.utils.errors import capture_err
 
-regex_upvote = r"^((?i)\+|\+\+|\+1|thx|tnx|ty|thank you|thanx|thanks|pro|cool|good|👍|nice|noice|piro)$"
+regex_upvote = r"^((?i)\+|\+\+|\+1|thx|bhsdk|bsdk|thank you|thanx|thanks|pro|cool|good|👍|nice|noice|chutiye)$"
 regex_downvote = r"^(\-|\-\-|\-1|👎|noob|Noob|gross|fuck off)$"
 
 karma_positive_group = 3
